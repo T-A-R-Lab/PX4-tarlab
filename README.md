@@ -20,6 +20,14 @@ PX4 is highly portable, OS-independent and supports Linux, NuttX and MacOS out o
   * many more experimental types (Blimps, Boats, Submarines, High Altitude Balloons, Spacecraft, etc)
 * Releases: [Downloads](https://github.com/PX4/PX4-Autopilot/releases)
 
+## Installation
+This fork of PX4 is mainly planned to be used in linux environments.
+The installation instructions are:
+```
+git clone git@github.com:T-A-R-Lab/PX4-tarlab.git --recursive
+bash ./PX4-tarlab/Tools/setup/ubuntu.sh
+```
+
 ## Releases
 
 Release notes and supporting information for PX4 releases can be found on the [Developer Guide](https://docs.px4.io/main/en/releases/).
